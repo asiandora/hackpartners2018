@@ -95,6 +95,7 @@ h6 {
   color:white;
   font-family:"proxima_nova_ltthin";
   letter-spacing: 2px;
+  z-index: 1;
 }
 
 .masthead::after{
@@ -105,7 +106,8 @@ h6 {
   width:100%;
   height:100%;
   opacity:0;
-  transition: .2s;
+  transition: 1s;
+  z-index: -1;
 }
 
 .masthead-1::after {
