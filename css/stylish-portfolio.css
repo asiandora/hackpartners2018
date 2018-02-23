@@ -97,49 +97,74 @@ h6 {
   letter-spacing: 2px;
 }
 
-.masthead-1 {
+.masthead::after{
+  content: "";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition: .2s;
+}
+
+.masthead-1::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-2 {
+.masthead-2::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-3 {
+.masthead-3::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-4 {
+.masthead-4::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-5 {
+.masthead-5::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead5.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-6 {
+.masthead-6::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead6.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.masthead-7 {
+.masthead-7::after {
+  content: "";
+  opacity:1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead7.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -305,7 +330,7 @@ h6 {
   margin: 10px;
   padding: 0;
   list-style: none;
-  margin-top:30%;
+  margin-top:50%;
 }
 
 .homepage-nav li a:hover {
